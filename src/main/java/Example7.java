@@ -8,15 +8,19 @@
  *
  * @author moabi
  */
-public class Example6 {
+public class Example7 {
     
   public static void main(String args[]) { 
-    int count; 
+    double i, j, d; 
  
-    for(count = 0; count < 5; count = count+1) 
-      System.out.println("This is count: " + count); 
+    i = 5; 
+    j = 10; 
  
-    System.out.println("Done!"); 
+    // the target of this if is a block 
+    if(i != 0) { 
+      System.out.println("i does not equal zero"); 
+      d = j / i; 
+      System.out.println("j / i is " + d); 
+    } 
   } 
 }
-
