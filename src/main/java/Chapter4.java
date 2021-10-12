@@ -44,6 +44,8 @@ class Vehicle {
   int fuelcap;    // fuel capacity in gallons 
   int mpg;        // fuel consumption in miles per gallon 
 }  
+
+
   
 // This class declares an object of type Vehicle.  
 class TwoVehicles {  
@@ -74,3 +76,6 @@ class TwoVehicles {
                        " with a range of " + range2);  
   }  
 }
+
+
+
