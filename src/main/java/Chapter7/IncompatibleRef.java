@@ -10,7 +10,7 @@ package Chapter7;
  * @author moabi
  */
 public class IncompatibleRef {
-    
+       
     public static void main(String args[]) { 
     X x = new X(10); 
     X x2;  
